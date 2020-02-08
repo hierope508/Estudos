@@ -1,0 +1,19 @@
+{
+    "name": "es6",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "babel ./main.js -o ./bundle.js",
+        "ex": "babel ./EX/ex7.js -o ./EX/bundle.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/cli": "^7.8.3",
+        "@babel/core": "^7.8.3",
+        "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+        "@babel/preset-env": "^7.8.3"
+    }
+}

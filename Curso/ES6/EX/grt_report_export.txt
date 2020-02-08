@@ -1,0 +1,420 @@
+
+
+Private Sub Workbook_Open()
+GeneraReportes
+End Sub
+
+Function GeneraReportes()
+Dim DatosOk As Boolean
+    DatosOk = True
+    If DatosOk Then DatosOk = GeneraReporteReparto
+    If DatosOk Then DatosOk = GeneraReportePicking
+End Function
+
+
+Function GeneraReporteReparto() As Boolean
+Dim oW1 As Workbook 'Archivo  GRT
+Dim oW2 As Workbook 'Archivo Reparto
+Dim oSh1 As Worksheet 'Hoja de datos
+Dim oShReparto As Worksheet ' Hoja de Reparto
+Dim iContRegistros As Long 'Contador en ciclo for para los registros
+Dim iContReparto As Long 'Contador de lineas de Reparto
+Dim RowFin As Long
+Dim AgenActual As String
+Dim RutaActual As String
+Dim Ruta As String
+Dim bPrimerHoja As Boolean
+Dim HojaBorrar As String
+Dim Direccion As String
+
+GeneraReporteReparto = False
+
+    Set oW1 = ThisWorkbook
+    Direccion = oW1.Path
+    Set oSh1 = oW1.Worksheets(1)
+    
+    'Abre archivo
+    AbreArchivoDatos oW1, oSh1, RowFin
+    
+    'Ordena los datos del archivo GRT
+    OrdenaDatosReparto oW1, RowFin
+        
+    'Crea el archivo de Reparto
+        Elimina_File Direccion & "\Reparto.xlsx"
+        Set oW2 = Workbooks.Add
+        oW2.SaveAs Direccion & "\Reparto.xlsx"
+        Set oW2 = Workbooks.Open(Direccion & "\Reparto.xlsx")
+        oW2.Application.Visible = False
+        oW1.Application.Visible = True
+        HojaBorrar = oW2.Worksheets(1).Name
+        
+    'Inicialización de agencia, ruta y contador de reparto
+        Ruta = ""
+        AgenActual = ""
+        RutaActual = ""
+        iContReparto = 1
+        bPrimerHoja = True
+    'Ciclo for hasta el último registro
+     For iContRegistros = 2 To RowFin
+        Ruta = oSh1.Cells(iContRegistros, 14).Value
+         
+         'Se valida que no sea nula la Ruta
+          If Ruta <> "" Then
+         'Se valida que la Agencia sea distinta
+            If AgenActual <> UCase(Trim(oSh1.Cells(iContRegistros, 16))) Then
+                If Not bPrimerHoja Then
+                    Columns("A:A").ColumnWidth = 0.2
+                    oShReparto.Columns("B:N").AutoFit
+                End If
+                AgenActual = UCase(Trim(oSh1.Cells(iContRegistros, 16)))
+                'Crea las hojas en el reporte de Reparto
+                CreaHoja oW2, oShReparto, AgenActual
+                bPrimerHoja = False
+                iContReparto = 1
+            End If
+        
+        'Se valida que la ruta sea distinta
+         If RutaActual <> UCase(Trim(oSh1.Cells(iContRegistros, 14))) Then
+            'Salto de página por hoja
+            If iContReparto <> 1 Then oW2.ActiveSheet.HPageBreaks.Add Before:=oSh1.Cells(iContReparto + 2, 15)
+            'Asigna nueva ruta
+            RutaActual = UCase(Trim(oSh1.Cells(iContRegistros, 14)))
+            PoneTitulosReparto oShReparto, iContReparto, RutaActual
+         End If
+         'Se colocan los valores de cada hoja
+         ColocaValoresReparto oSh1, iContRegistros, oShReparto, iContReparto
+         
+     End If
+    Next
+    
+    'Da formato a la ultima hoja
+    Columns("A:A").ColumnWidth = 0.2
+    oShReparto.Columns("B:N").AutoFit
+    'Elimina hoja
+    Application.DisplayAlerts = False
+    oW2.Worksheets(HojaBorrar).Delete
+    Application.DisplayAlerts = True
+    
+    'Cierre de archivo
+    oW2.Close True
+    GeneraReporteReparto = True
+    
+End Function
+Function GeneraReportePicking() As Boolean
+Dim oW1 As Workbook 'Archivo  GRT
+Dim oW3 As Workbook 'Archivo Picking
+Dim oSh1 As Worksheet 'Hoja de datos
+Dim oShPicking As Worksheet ' Hoja de Picking
+Dim iContRegistros As Long 'Contador en ciclo for para los registros
+Dim iContPicking As Long 'Contador de lineas de Picking
+Dim RowFin As Long
+Dim AgenActual As String
+Dim RutaActual As String
+Dim Ruta As String
+Dim SKU As String
+Dim NombreSKU As String
+Dim UnidadMedida As String
+Dim SumaCantidad As Integer
+Dim SumaTotal As Integer
+Dim HojaBorrar As String
+Dim Direccion As String
+
+GeneraReportePicking = False
+    Set oW1 = ThisWorkbook
+    Direccion = oW1.Path
+    Set oSh1 = oW1.Worksheets(1)
+    
+    'Abre archivo
+    AbreArchivoDatos oW1, oSh1, RowFin
+    
+    'Ordena los datos del archivo GRT
+    OrdenaDatosPicking oW1, RowFin
+    
+    'Crea el archivo de Picking
+        Elimina_File Direccion & "\Picking.xlsx"
+        Set oW3 = Workbooks.Add
+        oW3.SaveAs Direccion & "\Picking.xlsx"
+        Set oW3 = Workbooks.Open(Direccion & "\Picking.xlsx")
+        oW3.Application.Visible = False
+        oW1.Application.Visible = True
+        HojaBorrar = oW3.Worksheets(1).Name
+        
+    'Inicialización de variables
+        AgenActual = ""
+        RutaActual = ""
+        iContPicking = 1
+        SKU = ""
+        NombreSKU = ""
+        UnidadMedida = ""
+        SumaCantidad = 0
+        
+    'Ciclo for hasta el último registro
+     For iContRegistros = 2 To RowFin
+         Ruta = oSh1.Cells(iContRegistros, 14).Value
+         
+         'Se valida que no sea nula la Ruta
+        If Ruta <> "" Then
+            If AgenActual <> UCase(Trim(oSh1.Cells(iContRegistros, 16))) Then
+                
+                'Valida que SumaCantidad sea <> de 0
+                If SumaCantidad <> 0 Then
+                    Imprime_Codigo SKU, NombreSKU, UnidadMedida, SumaCantidad, oShPicking, iContPicking
+                    'Imprime e inicializa SumaTotal
+                    ImprimeSumaTotal SumaTotal, oShPicking, iContPicking
+                    'oShPicking.Columns("B:G").AutoFit
+                    Columns("A:A").ColumnWidth = 0.2
+                    Columns("B:B").ColumnWidth = 10.5
+                    Columns("C:C").ColumnWidth = 43.5
+                    Columns("D:D").ColumnWidth = 7.3
+                    Columns("E:E").ColumnWidth = 5.7
+                    Columns("F:F").ColumnWidth = 8.1
+                    Columns("G:G").ColumnWidth = 11
+                End If
+                
+                AgenActual = UCase(Trim(oSh1.Cells(iContRegistros, 16)))
+                'Inicializa ruta
+                RutaActual = ""
+                iContPicking = 1
+                'Asigna los valores de SKU,NombreSKU y Uom
+                AsignaValoresPicking oSh1, iContRegistros, SKU, NombreSKU, UnidadMedida
+                'Crea la hojas en el reporte de Picking
+                CreaHoja oW3, oShPicking, AgenActual
+                
+            End If
+            
+            'Se valida que la ruta sea distinta
+            If RutaActual <> UCase(Trim(oSh1.Cells(iContRegistros, 14))) Then
+                
+                'Valida que SumaCantidad sea <> de 0
+                If SumaCantidad <> 0 Then
+                    Imprime_Codigo SKU, NombreSKU, UnidadMedida, SumaCantidad, oShPicking, iContPicking
+                    'Imprime e inicializa SumaTotal
+                    ImprimeSumaTotal SumaTotal, oShPicking, iContPicking
+                    'Salto de página por hoja
+                    oW3.ActiveSheet.HPageBreaks.Add Before:=oSh1.Cells(iContPicking + 1, 8)
+                End If
+                
+                RutaActual = UCase(Trim(oSh1.Cells(iContRegistros, 14)))
+                'Asigna los valores de SKU,NombreSKU y Uom
+                AsignaValoresPicking oSh1, iContRegistros, SKU, NombreSKU, UnidadMedida
+
+                'Pone titulos a la matriz por ruta
+                PoneTitulosPicking oShPicking, iContPicking, RutaActual
+            End If
+             
+            'Se valida que el codigo sea el mismo
+            If SKU <> oSh1.Cells(iContRegistros, 9) Then
+                'Imprime los valores
+                Imprime_Codigo SKU, NombreSKU, UnidadMedida, SumaCantidad, oShPicking, iContPicking
+                'Asigna los valores de SKU,NombreSKU y Uom
+                AsignaValoresPicking oSh1, iContRegistros, SKU, NombreSKU, UnidadMedida
+               
+            End If
+            SumaCantidad = SumaCantidad + CInt(oSh1.Cells(iContRegistros, 11))
+            SumaTotal = SumaTotal + CInt(oSh1.Cells(iContRegistros, 11))
+            
+        End If
+    Next
+    
+    If SumaCantidad <> 0 Then
+        Imprime_Codigo SKU, NombreSKU, UnidadMedida, SumaCantidad, oShPicking, iContPicking
+        'Imprime e inicializa SumaTotal
+        ImprimeSumaTotal SumaTotal, oShPicking, iContPicking
+        'Da formato a la ultima hoja
+        Columns("A:A").ColumnWidth = 0.2
+        Columns("B:B").ColumnWidth = 10.5
+        Columns("C:C").ColumnWidth = 43.5
+        Columns("D:D").ColumnWidth = 7.3
+        Columns("E:E").ColumnWidth = 5.7
+        Columns("F:F").ColumnWidth = 8.1
+        Columns("G:G").ColumnWidth = 11
+        'Elimina hoja
+        Application.DisplayAlerts = False
+        oW3.Worksheets(HojaBorrar).Delete
+        Application.DisplayAlerts = True
+
+    End If
+    
+    'Cierra archivo
+    oW3.Close True
+  GeneraReportePicking = True
+  
+End Function
+
+Sub AbreArchivoDatos(ByRef oW1 As Workbook, ByRef oSh1 As Worksheet, ByRef RowFin As Long)
+Dim RangoBusqueda As Range
+Dim CelFinal As String
+        
+        'Busqueda del primer campo vacio en "A"
+        Set RangoBusqueda = oSh1.Range("A2:A200000").Find("")
+        RowFin = 0
+        CelFinal = ""
+        CelFinal = RangoBusqueda.Address(RowAbsolute:=False)
+        CelFinal = Replace(CelFinal, "$", "")
+        CelFinal = Replace(CelFinal, "A", "")
+        'Asigna el número de linea
+        RowFin = CLng(CelFinal - 1)
+      
+End Sub
+
+Sub OrdenaDatosReparto(oW1 As Workbook, RowFin As Long)
+'Proceso ordenamiento de datos por Agencia, Ruta y ID SAP
+        oW1.Worksheets(1).Sort.SortFields.Clear
+        oW1.Worksheets(1).Sort.SortFields.Add2 Key:=Range("P2:P" & RowFin), SortOn:=xlSortOnValues, Order:=xlAscending, DataOption:=xlSortNormal
+        oW1.Worksheets(1).Sort.SortFields.Add2 Key:=Range("N2:N" & RowFin), SortOn:=xlSortOnValues, Order:=xlAscending, DataOption:=xlSortNormal
+        oW1.Worksheets(1).Sort.SortFields.Add2 Key:=Range("B2:B" & RowFin), SortOn:=xlSortOnValues, Order:=xlAscending, DataOption:=xlSortNormal
+        With oW1.Worksheets(1).Sort
+            .SetRange Range("A1:P" & RowFin)
+            .Header = xlYes
+            .MatchCase = False
+            .Orientation = xlTopToBottom
+            .SortMethod = xlPinYin
+            .Apply
+        End With
+End Sub
+
+Sub OrdenaDatosPicking(ByRef oW1 As Workbook, RowFin As Long)
+'Proceso ordenamiento de datos por Agencia, Ruta y ID SAP
+        oW1.Worksheets(1).Sort.SortFields.Clear
+        oW1.Worksheets(1).Sort.SortFields.Add2 Key:=Range("P1:P" & RowFin), SortOn:=xlSortOnValues, Order:=xlAscending, DataOption:=xlSortNormal
+        oW1.Worksheets(1).Sort.SortFields.Add2 Key:=Range("N1:N" & RowFin), SortOn:=xlSortOnValues, Order:=xlAscending, DataOption:=xlSortNormal
+        oW1.Worksheets(1).Sort.SortFields.Add2 Key:=Range("I1:I" & RowFin), SortOn:=xlSortOnValues, Order:=xlAscending, DataOption:=xlSortNormal
+        With oW1.Worksheets(1).Sort
+            .SetRange Range("A1:P" & RowFin)
+            .Header = xlYes
+            .MatchCase = False
+            .Orientation = xlTopToBottom
+            .SortMethod = xlPinYin
+            .Apply
+        End With
+        
+
+        
+End Sub
+
+Sub CreaHoja(ByRef oW As Workbook, ByRef oShNueva As Worksheet, AgenActual As String)
+    oW.Worksheets.Add.Name = AgenActual
+    Set oShNueva = oW.Worksheets(AgenActual)
+End Sub
+
+Sub PoneTitulosReparto(ByRef oSh As Worksheet, ByRef iContFila As Long, RutaActual As String)
+    iContFila = iContFila + 3
+    'Formato Ruta
+    oSh.Cells(iContFila, 2) = "Ruta Reparto"
+    oSh.Cells(iContFila, 2).Interior.Color = RGB(254, 250, 171)
+    oSh.Cells(iContFila, 3) = Mid(RutaActual, 1, Len(Trim(RutaActual)) - 5)
+    oSh.Cells(iContFila, 3).Interior.Color = RGB(139, 207, 200)
+    'Formato Fecha
+    oSh.Cells(iContFila, 4) = "Fecha"
+    oSh.Cells(iContFila, 4).Interior.Color = RGB(254, 250, 171)
+    oSh.Cells(iContFila, 5) = Format(Now, "yyyy" & "/" & "MM" & "/" & "dd")
+    oSh.Cells(iContFila, 5).Interior.Color = RGB(139, 207, 200)
+    'Titulos de matriz
+    iContFila = iContFila + 1
+    oSh.Cells(iContFila, 2) = "Pedido"
+    oSh.Cells(iContFila, 3) = "ID SAP"
+    oSh.Cells(iContFila, 4) = "Congelador"
+    oSh.Cells(iContFila, 5) = "Nombre del comercio"
+    oSh.Cells(iContFila, 6) = "Nombre del cliente"
+    oSh.Cells(iContFila, 7) = "Direccion"
+    oSh.Cells(iContFila, 8) = "Latitud"
+    oSh.Cells(iContFila, 9) = "Longitud"
+    oSh.Cells(iContFila, 10) = "SKU"
+    oSh.Cells(iContFila, 11) = "Nombre SKU"
+    oSh.Cells(iContFila, 12) = "Cantidad"
+    oSh.Cells(iContFila, 13) = "NIV"
+    oSh.Cells(iContFila, 14) = "Ruta de preventa"
+    oSh.Range("B" & iContFila, "N" & iContFila).Interior.Color = RGB(142, 207, 139)
+    
+End Sub
+
+Sub PoneTitulosPicking(ByRef oSh As Worksheet, ByRef iContFila As Long, RutaActual As String)
+
+    iContFila = iContFila + 2
+    'Formato Ruta
+    oSh.Cells(iContFila, 2) = "Ruta Reparto"
+    oSh.Cells(iContFila, 2).Interior.Color = RGB(254, 250, 171)
+    oSh.Cells(iContFila, 3) = Mid(RutaActual, 1, Len(Trim(RutaActual)) - 5)
+    oSh.Cells(iContFila, 3).Interior.Color = RGB(139, 207, 200)
+    'Formato Camion
+    oSh.Cells(iContFila, 4) = "Camión"
+    oSh.Cells(iContFila, 4).Interior.Color = RGB(254, 250, 171)
+    oSh.Cells(iContFila, 5).Interior.Color = RGB(139, 207, 200)
+    'Formato Fecha
+    oSh.Cells(iContFila, 6) = "Fecha"
+    oSh.Cells(iContFila, 6).Interior.Color = RGB(254, 250, 171)
+    oSh.Cells(iContFila, 7) = Format(Now, "yyyy" & "/" & "MM" & "/" & "dd")
+    oSh.Cells(iContFila, 7).Interior.Color = RGB(139, 207, 200)
+    'Titulos de matriz
+    iContFila = iContFila + 1
+    oSh.Cells(iContFila, 2) = "SKU"
+    oSh.Cells(iContFila, 3) = "Nombre SKU"
+    oSh.Cells(iContFila, 4) = "Cantidad"
+    oSh.Cells(iContFila, 5) = "Unidad medida"
+    oSh.Cells(iContFila, 6) = "Incidencia"
+    oSh.Cells(iContFila, 7) = "Lote de daño"
+    oSh.Range("B" & iContFila, "G" & iContFila).Interior.Color = RGB(142, 207, 139)
+    
+End Sub
+
+Sub ColocaValoresReparto(ByRef oSh1 As Worksheet, iContRegistro As Long, ByRef oShReparto As Worksheet, ByRef iContReparto As Long)
+    
+    iContReparto = iContReparto + 1
+    oShReparto.Cells(iContReparto, 2) = oSh1.Cells(iContRegistro, 1) 'Pedido
+    oShReparto.Cells(iContReparto, 3) = oSh1.Cells(iContRegistro, 2)  'ID SAP
+    oShReparto.Cells(iContReparto, 4) = oSh1.Cells(iContRegistro, 3) 'Congeladores
+    oShReparto.Cells(iContReparto, 5) = oSh1.Cells(iContRegistro, 4) 'Nombre del comercio
+    oShReparto.Cells(iContReparto, 6) = oSh1.Cells(iContRegistro, 5) 'Nombre del cliente
+    oShReparto.Cells(iContReparto, 7) = oSh1.Cells(iContRegistro, 6) 'Direccion
+    oShReparto.Cells(iContReparto, 8) = oSh1.Cells(iContRegistro, 7) 'Latitud
+    oShReparto.Cells(iContReparto, 9) = oSh1.Cells(iContRegistro, 8) 'Longitud
+    oShReparto.Cells(iContReparto, 10) = oSh1.Cells(iContRegistro, 9) 'SKU
+    oShReparto.Cells(iContReparto, 11) = oSh1.Cells(iContRegistro, 10) 'Nombre SKU
+    oShReparto.Cells(iContReparto, 12) = oSh1.Cells(iContRegistro, 11) 'Cantidad
+    oShReparto.Cells(iContReparto, 13) = oSh1.Cells(iContRegistro, 12) 'NIV
+    oShReparto.Cells(iContReparto, 14) = oSh1.Cells(iContRegistro, 13) 'Ruta de preventa
+    
+End Sub
+
+Sub AsignaValoresPicking(ByRef oSh1 As Worksheet, iContRegistro As Long, ByRef SKU As String, ByRef NombreSKU As String, ByRef Uom As String)
+    
+    SKU = oSh1.Cells(iContRegistro, 9)  'SKU
+    NombreSKU = oSh1.Cells(iContRegistro, 10)  'Nombre SKU
+    Uom = oSh1.Cells(iContRegistro, 15) 'Unidad de medida
+    
+End Sub
+
+Sub Imprime_Codigo(SKU As String, NombreSKU As String, Uom As String, ByRef SumaCantidad As Integer, oShPicking As Worksheet, iContPicking As Long)
+    
+    iContPicking = iContPicking + 1
+    
+    oShPicking.Cells(iContPicking, 2) = SKU 'SKU
+    oShPicking.Cells(iContPicking, 3) = NombreSKU 'Nombre SKU
+    oShPicking.Cells(iContPicking, 4) = SumaCantidad 'Cantidad
+    oShPicking.Cells(iContPicking, 5) = Uom 'Unidad de medida
+    'Inicializa Suma cantidad
+    SumaCantidad = 0
+
+End Sub
+
+Sub ImprimeSumaTotal(ByRef SumaTotal As Integer, oShPicking As Worksheet, iContPicking As Long)
+    
+    iContPicking = iContPicking + 1
+        oShPicking.Cells(iContPicking, 3) = "Total"
+        oShPicking.Cells(iContPicking, 4) = SumaTotal
+        oShPicking.Range("B" & iContPicking, "G" & iContPicking).Interior.Color = RGB(142, 207, 139)
+
+    iContPicking = iContPicking + 1
+    'Inicializa SumaTotal
+    SumaTotal = 0
+
+End Sub
+
+'Elimina el archivo de Reparto y Picking
+Sub Elimina_File(NombreArchivo As String)
+
+If Len(Dir(NombreArchivo)) <> 0 Then
+    Kill NombreArchivo
+End If
+
+End Sub
