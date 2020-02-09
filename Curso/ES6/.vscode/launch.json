@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "C:\\Users\\isantos\\Desktop\\Curso\\ES6\\Ex\\index.html",
+            "url": "C:\\Users\\IRANN\\Documents\\GitHub\\Estudos\\Curso\\ES6\\ex\\Modulo 2\\Public\\index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

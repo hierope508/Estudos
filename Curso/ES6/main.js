@@ -26,4 +26,6 @@ let x = arr.reduce((next, current)=>{
     }
 );
 
+console.log("Iran");
+
 console.log(x);

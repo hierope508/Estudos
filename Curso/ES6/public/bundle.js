@@ -81,19 +81,32 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./main.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./EX/Modulo 2/main.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./main.js":
-/*!*****************!*\
-  !*** ./main.js ***!
-  \*****************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./EX/Modulo 2/funcoes.js":
+/*!********************************!*\
+  !*** ./EX/Modulo 2/funcoes.js ***!
+  \********************************/
+/*! exports provided: idade, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nvar TodoList =\n/*#__PURE__*/\nfunction () {\n  function TodoList() {\n    _classCallCheck(this, TodoList);\n\n    this.todos = [];\n  }\n\n  _createClass(TodoList, [{\n    key: \"addTodo\",\n    value: function addTodo() {\n      this.todos.push(\"Novo Todo\");\n      console.log(this.todos);\n    }\n  }]);\n\n  return TodoList;\n}();\n\nvar meusTodos = new TodoList();\n\ndocument.getElementById(\"add\").onclick = function () {\n  meusTodos.addTodo();\n};\n\nvar arr = [1, 2, 3, 4, 5];\nvar x = arr.reduce(function (next, current) {\n  return next += current;\n});\nconsole.log(\"Iran\");\nconsole.log(x);\n\n//# sourceURL=webpack:///./main.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"idade\", function() { return idade; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Usuario; });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nvar idade = 23;\n\nvar Usuario =\n/*#__PURE__*/\nfunction () {\n  function Usuario() {\n    _classCallCheck(this, Usuario);\n  }\n\n  _createClass(Usuario, null, [{\n    key: \"info\",\n    value: function info() {\n      console.log('Apenas teste');\n    }\n  }]);\n\n  return Usuario;\n}();\n\n\n\n//# sourceURL=webpack:///./EX/Modulo_2/funcoes.js?");
+
+/***/ }),
+
+/***/ "./EX/Modulo 2/main.js":
+/*!*****************************!*\
+  !*** ./EX/Modulo 2/main.js ***!
+  \*****************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _funcoes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./funcoes */ \"./EX/Modulo 2/funcoes.js\");\n\n_funcoes__WEBPACK_IMPORTED_MODULE_0__[\"default\"].info();\n\n//# sourceURL=webpack:///./EX/Modulo_2/main.js?");
 
 /***/ })
 
