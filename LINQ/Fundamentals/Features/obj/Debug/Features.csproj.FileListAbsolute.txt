@@ -1,0 +1,7 @@
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Features\bin\Debug\Features.exe.config
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Features\bin\Debug\Features.exe
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Features\bin\Debug\Features.pdb
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Features\obj\Debug\Features.csprojAssemblyReference.cache
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Features\obj\Debug\Features.csproj.CoreCompileInputs.cache
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Features\obj\Debug\Features.exe
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Features\obj\Debug\Features.pdb

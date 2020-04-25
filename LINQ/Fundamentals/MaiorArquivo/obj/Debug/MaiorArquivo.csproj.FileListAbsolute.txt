@@ -1,0 +1,14 @@
+C:\Users\isantos\Documents\GitHub\LINQ\MaiorArquivo\MaiorArquivo\bin\Debug\MaiorArquivo.exe.config
+C:\Users\isantos\Documents\GitHub\LINQ\MaiorArquivo\MaiorArquivo\bin\Debug\MaiorArquivo.exe
+C:\Users\isantos\Documents\GitHub\LINQ\MaiorArquivo\MaiorArquivo\bin\Debug\MaiorArquivo.pdb
+C:\Users\isantos\Documents\GitHub\LINQ\MaiorArquivo\MaiorArquivo\obj\Debug\MaiorArquivo.csprojAssemblyReference.cache
+C:\Users\isantos\Documents\GitHub\LINQ\MaiorArquivo\MaiorArquivo\obj\Debug\MaiorArquivo.csproj.CoreCompileInputs.cache
+C:\Users\isantos\Documents\GitHub\LINQ\MaiorArquivo\MaiorArquivo\obj\Debug\MaiorArquivo.exe
+C:\Users\isantos\Documents\GitHub\LINQ\MaiorArquivo\MaiorArquivo\obj\Debug\MaiorArquivo.pdb
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\MaiorArquivo\bin\Debug\MaiorArquivo.exe.config
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\MaiorArquivo\bin\Debug\MaiorArquivo.exe
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\MaiorArquivo\bin\Debug\MaiorArquivo.pdb
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\MaiorArquivo\obj\Debug\MaiorArquivo.csprojAssemblyReference.cache
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\MaiorArquivo\obj\Debug\MaiorArquivo.csproj.CoreCompileInputs.cache
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\MaiorArquivo\obj\Debug\MaiorArquivo.exe
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\MaiorArquivo\obj\Debug\MaiorArquivo.pdb

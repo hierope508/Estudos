@@ -1,0 +1,7 @@
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Queries\bin\Debug\Queries.exe.config
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Queries\bin\Debug\Queries.exe
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Queries\bin\Debug\Queries.pdb
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Queries\obj\Debug\Queries.csprojAssemblyReference.cache
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Queries\obj\Debug\Queries.csproj.CoreCompileInputs.cache
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Queries\obj\Debug\Queries.exe
+C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Queries\obj\Debug\Queries.pdb
