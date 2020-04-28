@@ -6,3 +6,12 @@ C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Cars\obj\Debug\Cars.csprojAs
 C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Cars\obj\Debug\Cars.csproj.CoreCompileInputs.cache
 C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Cars\obj\Debug\Cars.exe
 C:\Users\isantos\Documents\GitHub\LINQ\Fundamentals\Cars\obj\Debug\Cars.pdb
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\bin\Debug\fuel.csv
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\bin\Debug\Cars.exe.config
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\bin\Debug\Cars.exe
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\bin\Debug\Cars.pdb
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\obj\Debug\Cars.csprojAssemblyReference.cache
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\obj\Debug\Cars.csproj.CoreCompileInputs.cache
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\obj\Debug\Cars.exe
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\obj\Debug\Cars.pdb
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\bin\Debug\manufacturers.csv

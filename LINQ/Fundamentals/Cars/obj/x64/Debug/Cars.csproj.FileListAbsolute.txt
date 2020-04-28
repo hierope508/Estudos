@@ -1,0 +1,8 @@
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\bin\Debug\fuel.csv
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\bin\Debug\manufacturers.csv
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\bin\Debug\Cars.exe.config
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\bin\Debug\Cars.exe
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\bin\Debug\Cars.pdb
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\obj\x64\Debug\Cars.csproj.CoreCompileInputs.cache
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\obj\x64\Debug\Cars.exe
+C:\Users\IRANN\Documents\GitHub\Estudos\LINQ\Fundamentals\Cars\obj\x64\Debug\Cars.pdb
