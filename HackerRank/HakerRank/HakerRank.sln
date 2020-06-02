@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetweenTwoSets", "HakerRank\BetweenTwoSets.csproj", "{8BC1EC10-E4A7-400E-BFE2-B3FAA8245606}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakingTheRecords", "BreakingTheRecords\BreakingTheRecords.csproj", "{DC364525-63B1-4D79-A314-3EDAF55069A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BC1EC10-E4A7-400E-BFE2-B3FAA8245606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC1EC10-E4A7-400E-BFE2-B3FAA8245606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC1EC10-E4A7-400E-BFE2-B3FAA8245606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC1EC10-E4A7-400E-BFE2-B3FAA8245606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC364525-63B1-4D79-A314-3EDAF55069A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC364525-63B1-4D79-A314-3EDAF55069A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC364525-63B1-4D79-A314-3EDAF55069A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC364525-63B1-4D79-A314-3EDAF55069A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFF3511B-C8A2-4735-83D6-FCF20CE4B579}
+	EndGlobalSection
+EndGlobal
