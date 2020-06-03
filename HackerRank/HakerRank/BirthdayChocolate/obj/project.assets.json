@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\isantos\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\BreakingTheRecords\\BreakingTheRecords.csproj",
-      "projectName": "BreakingTheRecords",
-      "projectPath": "C:\\Users\\isantos\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\BreakingTheRecords\\BreakingTheRecords.csproj",
+      "projectUniqueName": "C:\\Users\\isantos\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\BirthdayChocolate\\BirthdayChocolate.csproj",
+      "projectName": "BirthdayChocolate",
+      "projectPath": "C:\\Users\\isantos\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\BirthdayChocolate\\BirthdayChocolate.csproj",
       "packagesPath": "C:\\Users\\isantos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\isantos\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\BreakingTheRecords\\obj\\",
+      "outputPath": "C:\\Users\\isantos\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\BirthdayChocolate\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

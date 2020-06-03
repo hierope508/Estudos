@@ -1,0 +1,13 @@
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BirthdayChocolate\bin\Debug\netcoreapp3.1\BirthdayChocolate.exe
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BirthdayChocolate\bin\Debug\netcoreapp3.1\BirthdayChocolate.deps.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BirthdayChocolate\bin\Debug\netcoreapp3.1\BirthdayChocolate.runtimeconfig.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BirthdayChocolate\bin\Debug\netcoreapp3.1\BirthdayChocolate.runtimeconfig.dev.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BirthdayChocolate\bin\Debug\netcoreapp3.1\BirthdayChocolate.dll
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BirthdayChocolate\bin\Debug\netcoreapp3.1\BirthdayChocolate.pdb
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BirthdayChocolate\obj\Debug\netcoreapp3.1\BirthdayChocolate.csprojAssemblyReference.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BirthdayChocolate\obj\Debug\netcoreapp3.1\BirthdayChocolate.csproj.CoreCompileInputs.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BirthdayChocolate\obj\Debug\netcoreapp3.1\BirthdayChocolate.AssemblyInfoInputs.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BirthdayChocolate\obj\Debug\netcoreapp3.1\BirthdayChocolate.AssemblyInfo.cs
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BirthdayChocolate\obj\Debug\netcoreapp3.1\BirthdayChocolate.dll
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BirthdayChocolate\obj\Debug\netcoreapp3.1\BirthdayChocolate.pdb
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BirthdayChocolate\obj\Debug\netcoreapp3.1\BirthdayChocolate.genruntimeconfig.cache

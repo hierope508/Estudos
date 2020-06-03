@@ -1,0 +1,13 @@
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BreakingTheRecords\bin\Debug\netcoreapp3.1\BreakingTheRecords.exe
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BreakingTheRecords\bin\Debug\netcoreapp3.1\BreakingTheRecords.deps.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BreakingTheRecords\bin\Debug\netcoreapp3.1\BreakingTheRecords.runtimeconfig.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BreakingTheRecords\bin\Debug\netcoreapp3.1\BreakingTheRecords.runtimeconfig.dev.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BreakingTheRecords\bin\Debug\netcoreapp3.1\BreakingTheRecords.dll
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BreakingTheRecords\bin\Debug\netcoreapp3.1\BreakingTheRecords.pdb
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BreakingTheRecords\obj\Debug\netcoreapp3.1\BreakingTheRecords.csprojAssemblyReference.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BreakingTheRecords\obj\Debug\netcoreapp3.1\BreakingTheRecords.csproj.CoreCompileInputs.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BreakingTheRecords\obj\Debug\netcoreapp3.1\BreakingTheRecords.AssemblyInfoInputs.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BreakingTheRecords\obj\Debug\netcoreapp3.1\BreakingTheRecords.AssemblyInfo.cs
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BreakingTheRecords\obj\Debug\netcoreapp3.1\BreakingTheRecords.dll
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BreakingTheRecords\obj\Debug\netcoreapp3.1\BreakingTheRecords.pdb
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\BreakingTheRecords\obj\Debug\netcoreapp3.1\BreakingTheRecords.genruntimeconfig.cache

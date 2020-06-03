@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetweenTwoSets", "HakerRank
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakingTheRecords", "BreakingTheRecords\BreakingTheRecords.csproj", "{DC364525-63B1-4D79-A314-3EDAF55069A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayChocolate", "BirthdayChocolate\BirthdayChocolate.csproj", "{82A577AD-A813-43E0-B022-C33553562960}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DC364525-63B1-4D79-A314-3EDAF55069A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC364525-63B1-4D79-A314-3EDAF55069A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC364525-63B1-4D79-A314-3EDAF55069A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A577AD-A813-43E0-B022-C33553562960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A577AD-A813-43E0-B022-C33553562960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A577AD-A813-43E0-B022-C33553562960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A577AD-A813-43E0-B022-C33553562960}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
