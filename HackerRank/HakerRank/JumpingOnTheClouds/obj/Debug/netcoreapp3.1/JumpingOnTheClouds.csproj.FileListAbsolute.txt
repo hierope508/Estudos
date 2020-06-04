@@ -1,0 +1,13 @@
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\JumpingOnTheClouds\bin\Debug\netcoreapp3.1\JumpingOnTheClouds.exe
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\JumpingOnTheClouds\bin\Debug\netcoreapp3.1\JumpingOnTheClouds.deps.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\JumpingOnTheClouds\bin\Debug\netcoreapp3.1\JumpingOnTheClouds.runtimeconfig.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\JumpingOnTheClouds\bin\Debug\netcoreapp3.1\JumpingOnTheClouds.runtimeconfig.dev.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\JumpingOnTheClouds\bin\Debug\netcoreapp3.1\JumpingOnTheClouds.dll
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\JumpingOnTheClouds\bin\Debug\netcoreapp3.1\JumpingOnTheClouds.pdb
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\JumpingOnTheClouds\obj\Debug\netcoreapp3.1\JumpingOnTheClouds.csprojAssemblyReference.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\JumpingOnTheClouds\obj\Debug\netcoreapp3.1\JumpingOnTheClouds.csproj.CoreCompileInputs.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\JumpingOnTheClouds\obj\Debug\netcoreapp3.1\JumpingOnTheClouds.AssemblyInfoInputs.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\JumpingOnTheClouds\obj\Debug\netcoreapp3.1\JumpingOnTheClouds.AssemblyInfo.cs
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\JumpingOnTheClouds\obj\Debug\netcoreapp3.1\JumpingOnTheClouds.dll
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\JumpingOnTheClouds\obj\Debug\netcoreapp3.1\JumpingOnTheClouds.pdb
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\JumpingOnTheClouds\obj\Debug\netcoreapp3.1\JumpingOnTheClouds.genruntimeconfig.cache
