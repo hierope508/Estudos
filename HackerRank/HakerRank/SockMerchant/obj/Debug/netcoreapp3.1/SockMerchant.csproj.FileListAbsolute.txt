@@ -1,0 +1,13 @@
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\SockMerchant\bin\Debug\netcoreapp3.1\SockMerchant.exe
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\SockMerchant\bin\Debug\netcoreapp3.1\SockMerchant.deps.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\SockMerchant\bin\Debug\netcoreapp3.1\SockMerchant.runtimeconfig.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\SockMerchant\bin\Debug\netcoreapp3.1\SockMerchant.runtimeconfig.dev.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\SockMerchant\bin\Debug\netcoreapp3.1\SockMerchant.dll
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\SockMerchant\bin\Debug\netcoreapp3.1\SockMerchant.pdb
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\SockMerchant\obj\Debug\netcoreapp3.1\SockMerchant.csprojAssemblyReference.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\SockMerchant\obj\Debug\netcoreapp3.1\SockMerchant.csproj.CoreCompileInputs.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\SockMerchant\obj\Debug\netcoreapp3.1\SockMerchant.AssemblyInfoInputs.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\SockMerchant\obj\Debug\netcoreapp3.1\SockMerchant.AssemblyInfo.cs
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\SockMerchant\obj\Debug\netcoreapp3.1\SockMerchant.dll
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\SockMerchant\obj\Debug\netcoreapp3.1\SockMerchant.pdb
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\SockMerchant\obj\Debug\netcoreapp3.1\SockMerchant.genruntimeconfig.cache

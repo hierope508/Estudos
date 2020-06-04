@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigratoryBirds", "Migratory
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisibleSumPairs", "DivisibleSumPairs\DivisibleSumPairs.csproj", "{881DBE26-9C61-48BC-B4A5-89A0D6231B11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SockMerchant", "SockMerchant\SockMerchant.csproj", "{956C1E5E-903C-4990-95BF-393FFF71E401}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{881DBE26-9C61-48BC-B4A5-89A0D6231B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{881DBE26-9C61-48BC-B4A5-89A0D6231B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{881DBE26-9C61-48BC-B4A5-89A0D6231B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956C1E5E-903C-4990-95BF-393FFF71E401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956C1E5E-903C-4990-95BF-393FFF71E401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956C1E5E-903C-4990-95BF-393FFF71E401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956C1E5E-903C-4990-95BF-393FFF71E401}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
