@@ -8,33 +8,32 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\isantos\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\IRANN\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\isantos\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\DivisibleSumPairs\\DivisibleSumPairs.csproj",
+      "projectUniqueName": "C:\\Users\\IRANN\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\DivisibleSumPairs\\DivisibleSumPairs.csproj",
       "projectName": "DivisibleSumPairs",
-      "projectPath": "C:\\Users\\isantos\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\DivisibleSumPairs\\DivisibleSumPairs.csproj",
-      "packagesPath": "C:\\Users\\isantos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\isantos\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\DivisibleSumPairs\\obj\\",
+      "projectPath": "C:\\Users\\IRANN\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\DivisibleSumPairs\\DivisibleSumPairs.csproj",
+      "packagesPath": "C:\\Users\\IRANN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IRANN\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\DivisibleSumPairs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\isantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\IRANN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://br-srvvmap-02:8082/nuget/": {},
-        "http://br-srvvmrep-04:8080/nuget/": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -64,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
