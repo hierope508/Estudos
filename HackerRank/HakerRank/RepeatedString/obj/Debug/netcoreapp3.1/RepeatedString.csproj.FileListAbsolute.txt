@@ -1,0 +1,13 @@
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\RepeatedString\obj\Debug\netcoreapp3.1\RepeatedString.csprojAssemblyReference.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\RepeatedString\obj\Debug\netcoreapp3.1\RepeatedString.csproj.CoreCompileInputs.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\RepeatedString\obj\Debug\netcoreapp3.1\RepeatedString.AssemblyInfoInputs.cache
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\RepeatedString\obj\Debug\netcoreapp3.1\RepeatedString.AssemblyInfo.cs
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\RepeatedString\bin\Debug\netcoreapp3.1\RepeatedString.exe
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\RepeatedString\bin\Debug\netcoreapp3.1\RepeatedString.deps.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\RepeatedString\bin\Debug\netcoreapp3.1\RepeatedString.runtimeconfig.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\RepeatedString\bin\Debug\netcoreapp3.1\RepeatedString.runtimeconfig.dev.json
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\RepeatedString\bin\Debug\netcoreapp3.1\RepeatedString.dll
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\RepeatedString\bin\Debug\netcoreapp3.1\RepeatedString.pdb
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\RepeatedString\obj\Debug\netcoreapp3.1\RepeatedString.dll
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\RepeatedString\obj\Debug\netcoreapp3.1\RepeatedString.pdb
+C:\Users\isantos\Documents\GitHub\Estudos\HackerRank\HakerRank\RepeatedString\obj\Debug\netcoreapp3.1\RepeatedString.genruntimeconfig.cache
