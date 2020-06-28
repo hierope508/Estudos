@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Hh3pLtOOmumc3cfUKFN5RP5GGWzBA8iRaTgkMsSCnz/atPoTnJbavMHRIriCNtykrvQQUck4OzQWkbMFJ6++qQ==",
+  "dgSpecHash": "0gg+wTgDJILX1NR7mwurs4wgY03If70SkT+Ud9vpMO3gjWFuVigCMFA2v3aIxPUwcZ7Y+duloGDCLT6h0QLRwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\IRANN\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\SockMerchant\\SockMerchant.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\IRANN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

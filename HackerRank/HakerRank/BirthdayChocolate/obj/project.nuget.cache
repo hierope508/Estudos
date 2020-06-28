@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qXSW7fU3+9l9dcD+24PUfeRt/XCYUbOLloaEGATCxhKPxqKqrWdefFAGsp02ViKQn6xqp5N0JlDp8JtpkILFAQ==",
+  "dgSpecHash": "esq/F1mYJsIohJ64+gL3vY1i5ST6LZlWXQz32zMKnF1RZCqcLJ56QEj3U05sWGYMbIEsaw0bETEEWq/SUhjTuQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\IRANN\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\BirthdayChocolate\\BirthdayChocolate.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\IRANN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

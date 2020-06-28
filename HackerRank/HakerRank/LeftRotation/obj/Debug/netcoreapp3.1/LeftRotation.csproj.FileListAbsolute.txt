@@ -1,0 +1,13 @@
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\LeftRotation\bin\Debug\netcoreapp3.1\LeftRotation.exe
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\LeftRotation\bin\Debug\netcoreapp3.1\LeftRotation.deps.json
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\LeftRotation\bin\Debug\netcoreapp3.1\LeftRotation.runtimeconfig.json
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\LeftRotation\bin\Debug\netcoreapp3.1\LeftRotation.runtimeconfig.dev.json
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\LeftRotation\bin\Debug\netcoreapp3.1\LeftRotation.dll
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\LeftRotation\bin\Debug\netcoreapp3.1\LeftRotation.pdb
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\LeftRotation\obj\Debug\netcoreapp3.1\LeftRotation.AssemblyInfoInputs.cache
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\LeftRotation\obj\Debug\netcoreapp3.1\LeftRotation.AssemblyInfo.cs
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\LeftRotation\obj\Debug\netcoreapp3.1\LeftRotation.csproj.CoreCompileInputs.cache
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\LeftRotation\obj\Debug\netcoreapp3.1\LeftRotation.dll
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\LeftRotation\obj\Debug\netcoreapp3.1\LeftRotation.pdb
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\LeftRotation\obj\Debug\netcoreapp3.1\LeftRotation.genruntimeconfig.cache
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\LeftRotation\obj\Debug\netcoreapp3.1\LeftRotation.csprojAssemblyReference.cache

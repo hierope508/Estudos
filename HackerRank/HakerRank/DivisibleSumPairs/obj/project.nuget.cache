@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7VV+U8YF6GjKGF5faTgedDPMD+oDzIyAO5vQKOTb8qvLmK5RIJJvZA8183ky4H7lppVcBOCxDFPBuWBQybVxdQ==",
+  "dgSpecHash": "ur/lopBejyj1UQeYz/KPBVJYi1cp7L8ERZZ9P+k7QOTJk00A9IrA87rbEoCBKkTwlAIfLqWoidaXkAZ8y5P8ow==",
   "success": true,
   "projectFilePath": "C:\\Users\\IRANN\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\DivisibleSumPairs\\DivisibleSumPairs.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\IRANN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

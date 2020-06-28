@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetweenTwoSets", "HakerRank\BetweenTwoSets.csproj", "{8BC1EC10-E4A7-400E-BFE2-B3FAA8245606}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BetweenTwoSets", "HakerRank\BetweenTwoSets.csproj", "{8BC1EC10-E4A7-400E-BFE2-B3FAA8245606}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakingTheRecords", "BreakingTheRecords\BreakingTheRecords.csproj", "{DC364525-63B1-4D79-A314-3EDAF55069A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreakingTheRecords", "BreakingTheRecords\BreakingTheRecords.csproj", "{DC364525-63B1-4D79-A314-3EDAF55069A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayChocolate", "BirthdayChocolate\BirthdayChocolate.csproj", "{82A577AD-A813-43E0-B022-C33553562960}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirthdayChocolate", "BirthdayChocolate\BirthdayChocolate.csproj", "{82A577AD-A813-43E0-B022-C33553562960}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigratoryBirds", "MigratoryBirds\MigratoryBirds.csproj", "{81E3F673-0874-4984-8568-38EAFFCC714A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MigratoryBirds", "MigratoryBirds\MigratoryBirds.csproj", "{81E3F673-0874-4984-8568-38EAFFCC714A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisibleSumPairs", "DivisibleSumPairs\DivisibleSumPairs.csproj", "{881DBE26-9C61-48BC-B4A5-89A0D6231B11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivisibleSumPairs", "DivisibleSumPairs\DivisibleSumPairs.csproj", "{881DBE26-9C61-48BC-B4A5-89A0D6231B11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SockMerchant", "SockMerchant\SockMerchant.csproj", "{956C1E5E-903C-4990-95BF-393FFF71E401}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SockMerchant", "SockMerchant\SockMerchant.csproj", "{956C1E5E-903C-4990-95BF-393FFF71E401}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpingOnTheClouds", "JumpingOnTheClouds\JumpingOnTheClouds.csproj", "{3961149B-12AC-4157-981D-0EA1F06F1682}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpingOnTheClouds", "JumpingOnTheClouds\JumpingOnTheClouds.csproj", "{3961149B-12AC-4157-981D-0EA1F06F1682}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatedString", "RepeatedString\RepeatedString.csproj", "{0BFFB6B0-8DD4-4FC6-AE00-715304DB0FA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepeatedString", "RepeatedString\RepeatedString.csproj", "{0BFFB6B0-8DD4-4FC6-AE00-715304DB0FA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DArrayDS", "2DArrayDS\2DArrayDS.csproj", "{FE8A1DB3-A27A-4BF8-95A2-D22932E938B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftRotation", "LeftRotation\LeftRotation.csproj", "{14B25E36-12DD-424A-B055-00216130FD71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{0BFFB6B0-8DD4-4FC6-AE00-715304DB0FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BFFB6B0-8DD4-4FC6-AE00-715304DB0FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BFFB6B0-8DD4-4FC6-AE00-715304DB0FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE8A1DB3-A27A-4BF8-95A2-D22932E938B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8A1DB3-A27A-4BF8-95A2-D22932E938B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8A1DB3-A27A-4BF8-95A2-D22932E938B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8A1DB3-A27A-4BF8-95A2-D22932E938B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B25E36-12DD-424A-B055-00216130FD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B25E36-12DD-424A-B055-00216130FD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B25E36-12DD-424A-B055-00216130FD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B25E36-12DD-424A-B055-00216130FD71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

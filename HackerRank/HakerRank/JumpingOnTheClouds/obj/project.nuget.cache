@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+szrGbS+qPR2qOfWrgFavV+DnqBJyGK3Om04cRp/03A9YeiJsNfJwB0xrKuUB+iGKifHxcf0dRqNl2rX49z0Kg==",
+  "dgSpecHash": "xXIr7QIXjJQpLNqab68DrxEVHsOFhKGtclRcBFZaFhiohhWWVdAWGvVnimdTSfsuDckO4ZxIFc0EPtq7/kq8Ag==",
   "success": true,
   "projectFilePath": "C:\\Users\\IRANN\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\JumpingOnTheClouds\\JumpingOnTheClouds.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\IRANN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

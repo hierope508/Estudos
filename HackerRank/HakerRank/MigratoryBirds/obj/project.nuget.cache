@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KFlFfKgcIUwZxzxtMEEJe3swXleexBSFZIFTYJDtNJ/+w4/0XH8ykwuqAcp5AgLr1i1mKU0/RbF6EdSd2BdbDQ==",
+  "dgSpecHash": "R8k+K4msgxHC4DIFkpo1Ew1p/nMy4nD+TRZYGTSH1h98upPawyoMZIpakWwbzYRDOi+f3e4Q5hGOHC7K7i4/cQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\IRANN\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\MigratoryBirds\\MigratoryBirds.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\IRANN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

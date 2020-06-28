@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uNk125oEvqS8GlneNibuE2EtEbd9PsX5+Vn+dNxroUio/Ywlp8XeDNG1fI0WYQiSq+0muPJm0ch/GkalW76YCQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\IRANN\\Documents\\GitHub\\Estudos\\HackerRank\\HakerRank\\2DArrayDS\\2DArrayDS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\IRANN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

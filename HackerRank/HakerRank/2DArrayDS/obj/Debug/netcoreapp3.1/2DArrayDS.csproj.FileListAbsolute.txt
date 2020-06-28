@@ -1,0 +1,13 @@
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\2DArrayDS\bin\Debug\netcoreapp3.1\2DArrayDS.exe
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\2DArrayDS\bin\Debug\netcoreapp3.1\2DArrayDS.deps.json
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\2DArrayDS\bin\Debug\netcoreapp3.1\2DArrayDS.runtimeconfig.json
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\2DArrayDS\bin\Debug\netcoreapp3.1\2DArrayDS.runtimeconfig.dev.json
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\2DArrayDS\bin\Debug\netcoreapp3.1\2DArrayDS.dll
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\2DArrayDS\bin\Debug\netcoreapp3.1\2DArrayDS.pdb
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\2DArrayDS\obj\Debug\netcoreapp3.1\2DArrayDS.AssemblyInfoInputs.cache
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\2DArrayDS\obj\Debug\netcoreapp3.1\2DArrayDS.AssemblyInfo.cs
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\2DArrayDS\obj\Debug\netcoreapp3.1\2DArrayDS.csproj.CoreCompileInputs.cache
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\2DArrayDS\obj\Debug\netcoreapp3.1\2DArrayDS.dll
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\2DArrayDS\obj\Debug\netcoreapp3.1\2DArrayDS.pdb
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\2DArrayDS\obj\Debug\netcoreapp3.1\2DArrayDS.genruntimeconfig.cache
+C:\Users\IRANN\Documents\GitHub\Estudos\HackerRank\HakerRank\2DArrayDS\obj\Debug\netcoreapp3.1\2DArrayDS.csprojAssemblyReference.cache
