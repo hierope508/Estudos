@@ -1,0 +1,6 @@
+
+.fake
+.ionide
+.cache
+obj/
+node_modules/
