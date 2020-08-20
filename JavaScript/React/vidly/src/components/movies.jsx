@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { getMovies } from "../services/fakeMovieService";
+import Like from "./common/like";
 
 class Movies extends Component {
   state = {
@@ -28,6 +29,15 @@ class Movies extends Component {
     );
   }
 
+  handleClick = (m) =>{
+    let movies = [...this.state.movies];
+    let index = movies.indexOf(m);
+    movies[index] = { ...movies[index] };
+    movies[index].liked = !movies[index].liked;
+    this.setState({ movies });
+  }
+
+
   renderTable = () => {
     return (
       <table className="table table-hover">
@@ -38,6 +48,7 @@ class Movies extends Component {
             <th>Genre</th>
             <th>Stock</th>
             <th>Rate</th>
+            <th>Like</th>
             <th scope="col"></th>
           </tr>
         </thead>
@@ -50,13 +61,21 @@ class Movies extends Component {
               <td>{m.numberInStock}</td>
               <td>{m.dailyRentalRate}</td>
               <td>
+                <Like
+                  liked = {m.liked}
+                  onClick = {() => this.handleClick(m)}
+                />
+              </td>
+              <td>
                 <button
                   className="btn btn-danger"
                   onClick={() => this.handleDelete(this.state.movies.indexOf(m))}
+                  movie = {m}
                 >
                   Delete
                 </button>
               </td>
+
             </tr>
           ))}
         </tbody>

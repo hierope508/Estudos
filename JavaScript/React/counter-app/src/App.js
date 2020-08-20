@@ -27,6 +27,14 @@ class App extends Component {
     this.setState({ counters });
   };
 
+  handleDecrement = (counter) => {
+    let counters = [...this.state.counters];
+    let index = counters.indexOf(counter);
+    counters[index] = { ...counter };
+    counters[index].value = counters[index].value-1;
+    this.setState({ counters });
+  };
+
   handleReset = () => {
     let counters = this.state.counters.map((c) => {c.value = 0; return c;});
     this.setState({ counters });
@@ -34,13 +42,18 @@ class App extends Component {
 
   render(){
       return(<React.Fragment>
+        <div className="container-fluid">
+          
         <NaviBar totalCounters = {this.state.counters.filter(c=>c.value>0).length}/>
         <Counters
           onDelete={this.handleDelete}
           onReset={this.handleReset}
           onIncrement={this.handleIncrement}
+          onDecrement={this.handleDecrement}
           counters={this.state.counters}
         />
+        </div>
+        
       </React.Fragment>);
   };
 }
