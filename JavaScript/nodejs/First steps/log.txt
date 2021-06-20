@@ -1,0 +1,15 @@
+Iniciando{"free":"8348 MB","total":"16299 MB","usage":"51 %"} 
+{"free":"8348 MB","total":"16299 MB","usage":"51 %"} 
+{"free":"8341 MB","total":"16299 MB","usage":"51 %"} 
+{"free":"8339 MB","total":"16299 MB","usage":"51 %"} 
+{"free":"8337 MB","total":"16299 MB","usage":"51 %"} 
+{"free":"8337 MB","total":"16299 MB","usage":"51 %"} 
+Iniciando 
+{"free":"8215 MB","total":"16299 MB","usage":"50 %"} 
+{"free":"8215 MB","total":"16299 MB","usage":"50 %"} 
+{"free":"8218 MB","total":"16299 MB","usage":"50 %"} 
+{"free":"8208 MB","total":"16299 MB","usage":"50 %"} 
+{"free":"8174 MB","total":"16299 MB","usage":"50 %"} 
+{"free":"8183 MB","total":"16299 MB","usage":"50 %"} 
+{"free":"8185 MB","total":"16299 MB","usage":"50 %"} 
+{"free":"8198 MB","total":"16299 MB","usage":"50 %"} 
