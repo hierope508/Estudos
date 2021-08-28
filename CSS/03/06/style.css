@@ -1,0 +1,10 @@
+.demo-area {
+  margin: 0 auto;
+  padding: 0.25rem 1rem;
+  width: 70ch;
+  background: hsl(213, 100%, 76%);
+}
+
+.demo-area p::selection {
+  background-color: yellow;
+}

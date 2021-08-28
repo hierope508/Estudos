@@ -1,0 +1,18 @@
+:root {
+  font-size: 20px;
+}
+
+.demo-area {
+  margin: 0 auto;
+  width: 70ch;
+}
+
+p:first-of-type::first-letter {
+  font-size: 3.5em;
+  float: left;
+  padding: 0.15em;
+  color: hsl(255, 90%, 50%);
+  margin: 0 0.1em 0.1em 0;
+  background: aliceblue;
+  text-shadow: 3px 3px 0 hsl(255, 90%, 10%);
+}
