@@ -64,3 +64,9 @@
   margin: 10px;
   text-align: center;
 }
+
+.timer {
+  color: #666;
+  margin-top: 3px;
+  margin-left: 3px;
+}
